@@ -1549,7 +1549,8 @@ width:200px;
 left:200px;
  font-weight:bold;
  font-style:normal;
- font-family:arial; }
+ font-family:arial;
  animation: nanimation 1s infinite alternate;
+}
 }
 
