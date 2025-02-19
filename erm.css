@@ -1320,23 +1320,98 @@
 }
 
 
+@keyframes wordswords {
+0%{content:"EXERCISE CAUTION!";
+  color:white;
+}
+2.5%{content:"EXERCISE CAUTION! \A EXERCISE CAUTION!";
+  color:white;
+}
+
+5%{content:"EXERCISE CAUTION! \A EXERCISE CAUTION!\A EXERCISE CAUTION! ";
+}
+
+7.5%{content:"EXERCISE CAUTION! \A EXERCISE CAUTION!\A EXERCISE CAUTION! \A EXERCISE CAUTION!";
+}
+
+9%{content:"EXERCISE CAUTION! \A EXERCISE CAUTION!\A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION!";
+}
+
+10.5%{content:"EXERCISE CAUTION! \A EXERCISE CAUTION!\A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION!";
+}
+
+
+12%{content:"EXERCISE CAUTION! \A EXERCISE CAUTION!\A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION!";
+}
+
+12%{content:"EXERCISE CAUTION! \A EXERCISE CAUTION!\A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION!";
+}
+
+13.5%{content:"EXERCISE CAUTION! \A EXERCISE CAUTION!\A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION!";}
+
+15%{content:"EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION!";
+}
+
+
+16.5%{content:"EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION! \A EXERCISE CAUTION!";
+color:transparent;
+-webkit-text-stroke: 1px red;
+}
+
+
+
+58%{content:".ERROR:ERROR\A .ERROR:ERROR\A .ERROR:ERROR\A .ERROR:ERROR\A .ERROR:ERROR\A .ERROR:ERROR ";
+font-size:40px;}    
+    
+68%{content:"";}
+  91%{content:"\A YOU HAVE BEEN ANALYZED\A +YOU HAVE BEEN JUDGED+\A YOU HAVE BEEN ORDAINED\A YOU HAVE BEEN ANALYZED\A +YOU HAVE BEEN JUDGED+\A YOU HAVE BEEN ORDAINED\A YOU HAVE BEEN ANALYZED\A +YOU HAVE BEEN JUDGED+\A YOU HAVE BEEN ORDAINED\A YOU HAVE BEEN ANALYZED\A +YOU HAVE BEEN JUDGED+\A YOU HAVE BEEN ORDAINED\A ";
+  color:transparent;
+  font-size:15.7px;
+  font-family:"Press Start 2P";
+    -webkit-text-stroke: 1px green;}
+    
+ 100%{
+   content:"\Apoint is there are no entries here.";
+     font-size:15px;
+     color:white;
+    
+    font-weight:normal;
+     transform:rotate(270deg);
+   width:400px;
+   border:none;
+   background:rgba(0,0,0,0.4);
+   width:50px;
+   left:265px;
+   top:-170px;
+   font-size:12px;
+   height:450px;
+   border-radius:100px;
+   text-align:center;
+ }
+}
+
+
 @keyframes beforetext{
+  0%{content:"";}
   20%{opacity:1;
+  border:3px double red;
+  padding:5px;
+  background-color:rgba(255, 0, 0, 0.1);
       content:"YOU WILL NOT BE HEARD.";
   }
-  21%{opacity:1;
+  22%{opacity:1;
       content:"YOU WILL NOT BE HEARD. \A YOU WILL NOT BE ACKNOWLEDGED";
   }  
   
-  22%{opacity:1;
+  23%{opacity:1;
       content:"YOU WILL NOT BE HEARD. \A YOU WILL NOT BE ACKNOWLEDGED. \A YOU WILL NOT BE HELPED.";
   }    
   
-  23%{opacity:1;
+  24%{opacity:1;
       content:"You will not be HEARD. \A You will not be ACKNOWLEDGED. \A You will not be HELPED. \A ++++++++++++++";
   } 
   
-  24%{opacity:1;
+  24.5%{opacity:1;
       content:"You will not be #####. \A You ... not be ACKNOWLEDGED. \A You will not be #######. \A ++++++++++++++";
   }   
   
@@ -1356,75 +1431,92 @@
  
  36%{  content:"truthfully, I have no clue \A truthfully, I have no clue \A truthfully, I have no clue \A truthfully, I have no clue \A xxxxxxxxxx, I may have a clue \A truthfully, I have no clue \A truthfully, I have no clue \A truthfully, I have no clue \A truthfully, I have no clue \A truthfully, I have no clue \A It is blind faith,";}
 
- 37%{  content:"You will not be HEARD. \A You will not be ACKNOWLEDGED. \A You will not be HELPED. \A ++++++++++++++\A \A \A Reevaluate. It is hopeless";
+ 38.5%{  content:"You will not be HEARD. \A You will not be ACKNOWLEDGED. \A You will not be HELPED. \A ++++++++++++++\A \A \A Reevaluate. It is hopeless";
 }
 
  40%{  content:"You will not be HEARD. \A You will not be ACKNOWLEDGED. \A You will not be HELPED. \A ++++++++++++++\A \A \A Reevaluate. It is hopeless?";
 }
 
 
- 41%{  content:"You will not be HEARD. \A You will not be ACKNOWLEDGED. \A You will not be HELPED. \A ++++++++++++++\A \A \A Think. Think. Think.";
+ 41.5%{  content:"You will not be HEARD. \A You will not be ACKNOWLEDGED. \A You will not be HELPED. \A ++++++++++++++\A \A \A Think. Think. Think.";
 }
 
- 42%{  content:"You will not be HEARD. \A You will not be ACKNOWLEDGED. \A You will not be HELPED. \A ++++++++++++++\A \A \A Reevaluate. It is hopeless? \A Succumb to despair. \A Give in to despair. \A Embrace reality For what it is.";
+ 43%{  content:"You will not be HEARD. \A You will not be ACKNOWLEDGED. \A You will not be HELPED. \A ++++++++++++++\A \A \A Reevaluate. It is hopeless? \A Succumb to despair. \A Give in to despair. \A Embrace reality For what it is.";
 }
 
- 44%{  content:"You will not be HEARD. \A You will not be ACKNOWLEDGED. \A You will not be HELPED. \A \A \A Reevaluate. It is hopeless? \A Succumb to despair. \A Give in to despair. \A Embrace reality For what it is. \A  ++++++++++++++";
+ 44.5%{  content:"You will not be HEARD. \A You will not be ACKNOWLEDGED. \A You will not be HELPED. \A \A \A Reevaluate. It is hopeless? \A Succumb to despair. \A Give in to despair. \A Embrace reality For what it is. \A  ++++++++++++++";
 }
 
 
  46%{  content:"You will not be [+]. \A You will not be ACKNOWLEDGED. \A You will not be HELPED. \A \A \A Reevaluate. It is hopeless? \A Succumb to despair. \A Give in to [+]. \A Embrace reality For what it is. \A  ++++++++++++++";
 }
 
- 48%{  content:"You will not be HEARD. \A You will not be ACKNOWLEDGED. \A You will not be HELPED. \A \A \A It is hopeless. It is hopeless. \A It is hopeless. \A Give in to despair. \A Embrace reality For what it is. \A  ++++++++++++++ \A \A \A 000.00002% \A TIME IS INESCAPABLE.";
+ 47.5%{  content:"You will not be HEARD. \A You will not be ACKNOWLEDGED. \A You will not be HELPED. \A \A \A It is hopeless. It is hopeless. \A It is hopeless. \A Give in to despair. \A Embrace reality For what it is. \A  ++++++++++++++ \A \A \A 000.00002% \A TIME IS INESCAPABLE.";
 }
 
- 49%{  content:"You will not be HEARD. \A You will not be ACKNOWLEDGED. \A You will not be helped. \A \A \A Reevaluate. It is hopeless? \A Succumb to despair. \A Give in...... \A Embrace DELUSION* (no other way). \A  ++++++++++++++ \A \A \A 000.952385% \A [?] IS INESCAPABLE.";
+ 50%{  content:"You will not be HEARD. \A You will not be ACKNOWLEDGED. \A You will not be helped. \A \A \A Reevaluate. It is hopeless? \A Succumb to despair. \A Give in...... \A Embrace DELUSION* (no other way). \A  ++++++++++++++ \A \A \A 000.952385% \A [?] IS INESCAPABLE.";
 }
 
- 51%{  content:"You will not be seen. \A You will not be known. \A You will not exist. \A \A \A Reevaluate. It is hopeless? \A Succumb to despair. \A Give in to despair. \A Embrace reality For what it is. \A  ++++++++++++++ \A \A \A -0.41241241241% \A death IS INESCAPABLE.";
+ 52%{  content:"You will not be seen. \A You will not be known. \A You will not exist. \A \A \A Reevaluate. It is hopeless? \A Succumb to despair. \A Give in to despair. \A Embrace reality For what it is. \A  ++++++++++++++ \A \A \A -0.41241241241% \A death IS INESCAPABLE.";
 }
 
- 53%{  content:"You will not be HEARD. \A You will not be ACKNOWLEDGED. \A You will not be HELPED. \A \A \A Reevaluate. It is hopeless? \A Succumb to despair. \A Give in to despair. \A Embrace reality For what it is. \A  ++++++++++++++ \A \A \A 0.1% \A TIME IS INESCAPABLE.";
+ 54%{  content:"You will not be HEARD. \A You will not be ACKNOWLEDGED. \A You will not be HELPED. \A \A \A Reevaluate. It is hopeless? \A Succumb to despair. \A Give in to despair. \A Embrace reality For what it is. \A  ++++++++++++++ \A \A \A 0.1% \A TIME IS INESCAPABLE.";
 }
 
- 54%{  content:"You will not be HEARD. \A You will not be ACKNOWLEDGED. \A You will not be HELPED. \A \A \A Reevaluate. It is hopeless? \A Succumb to despair. \A Give in to despair. \A Embrace reality For what it is. \A  +-++++-++++-++ \A \A \A time is inescapable?\A 1.48127491948% ";
+ 56%{  content:"You will not be HEARD. \A You will not be ACKNOWLEDGED. \A You will not be HELPED. \A \A \A Reevaluate. It is hopeless? \A Succumb to despair. \A Give in to despair. \A Embrace reality For what it is. \A  +-++++-++++-++ \A \A \A time is inescapable?\A 1.48127491948% ";
+ background-color:transparent;
 }
 
  58%{  content:"forcibly inhale until your lungs rupture\A forcibly inhale until your lungs rupture\A forcibly inhale until your lungs rupture\A forcibly inhale until your lungs rupture\A forcibly exhale until you pass out\A forcibly exhale until you pass out\A forcibly exhale until you pass out\A forcibly exhale until you pass out\A forcibly exhale until you pass out\A "; 
  font-style:italic;
+ font-size:17px;
+ top:70px;
+ border:none;
+ width:200px;
+ left:355px;
  font-family:Ballet;
- font-size:30px;
 
 }
 
 
- 60%{content:"Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking.  ";
+ 68%{content:"Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. \A Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking. Time is Ticking.  ";
  color:#e8e8e8;
- font-size:45px;
- right:-10050px;
- font-family:;
+  height:340px; width:540px;
+  left:30px;
+  top:47px;
  font-style:italic;
- top:-10px;
  font-family:Ballet;
 
 }
 
-61%{color:red;}
-62%{color:white;}
-63%{color:red;}
-64%{color:white;}
-65%{color:red;}
-66%{color:red;}
-67%{color:white;}
-68%{color:red;}
-69%{color:white;}
+69%{color:red;}
+70%{color:white;}
+71%{color:red;}
+72%{color:white;}
+73%{color:red;}
+74%{color:red;}
+75%{color:white;}
+76%{color:red;}
+77%{color:white;}
+78%{color:red;}
+79%{color:white;}
+80%{color:red;}
+81%{color:red;}
+82%{color:white;}
+83%{color:red;}
+84%{color:white;}
+85%{color:red;}
+86%{color:red;}
+87%{color:white;}
+88%{color:red;}
+89%{color:white;}
 
 
- 70%{  content:"     ____                / |  __         _\A   /   ⋋   ⋋ ⋋ _ _ _ _ /   | / / _ _ _ /   ⋋\A   |  <       ⋋ ⋋          ⋋ | / _         ⋋ > |\A    |  <      /            /       ⋋     ⋋    ⋋ /\A     ⋋      / /             |         |     ⋋    ⋋\A      /   / /   /         / |         | ⋋     |    ⋋\A     /     /  '   ⋋ - / - | - / ⋋ / - - ⋋ - /    ⋋ ⋋\A   /       |     (   ( )       ) ( ( )       )   |   ⋋\A   - |     |     / -       -       -     - /     | ⋋ |\A     ⋋ / ⋋   ⋋ /   ⋋ _ ( _ / ⋋ _ ) _ ' / ⋋   |\A   _ _     ⋋ /    ' ⋋ !    _ '   ⋋ /    /    '\A (     )            /     )         ⋋ ⋋\A |     |           /     /             ⋋   ⋋\A ⋋     ⋋   _ - - _   / /               ⋋ ⋋ - - _\A   ⋋   _ /         ⋋   ⋋ _ _ _ _ _ _ / |       |\A         ⋋ _     _ / /     /   |     ⋋   ⋋    - - -\A              - -   /    / '  |  |  '\A                   / ' ' /       | ' |\A                 | - - - |     | - - - |\A                 /       /   |         ⋋\A               |       |       ' ' ⋋ _ _ |\A                  ---";
-color:green; font-size:15px;
-  right:-9700px;
- top:45px;
+
+ 90%{  content:"     ____                / |  __         _\A   /   ⋋   ⋋ ⋋ _ _ _ _ /   | / / _ _ _ /   ⋋\A   |  <       ⋋ ⋋          ⋋ | / _         ⋋ > |\A    |  <      /            /       ⋋     ⋋    ⋋ /\A     ⋋      / /             |         |     ⋋    ⋋\A      /   / /   /         / |         | ⋋     |    ⋋\A     /     /  '   ⋋ - / - | - / ⋋ / - - ⋋ - /    ⋋ ⋋\A   /       |     (   ( )       ) ( ( )       )   |   ⋋\A   - |     |     / -       -       -     - /     | ⋋ |\A     ⋋ / ⋋   ⋋ /   ⋋ _ ( _ / ⋋ _ ) _ ' / ⋋   |\A   _ _     ⋋ /    ' ⋋ !    _ '   ⋋ /    /    '\A (     )            /     )         ⋋ ⋋\A |     |           /     /             ⋋   ⋋\A ⋋     ⋋   _ - - _   / /               ⋋ ⋋ - - _\A   ⋋   _ /         ⋋   ⋋ _ _ _ _ _ _ / |       |\A         ⋋ _     _ / /     /   |     ⋋   ⋋    - - -\A              - -   /    / '  |  |  '\A                   / ' ' /       | ' |\A                 | - - - |     | - - - |\A                 /       /   |         ⋋\A               |       |       ' ' ⋋ _ _ |\A                  ---";
+color:green; font-size:10px;
+ top:85px;
+ left:310px;
  font-weight:bold;
  font-style:normal;
 
@@ -1435,39 +1527,20 @@ color:green; font-size:15px;
 
 }
 
- 85%{  content:"     ____                / |  __         _\A   /   ⋋   ⋋ ⋋ _ _ _ _ /   | / / _ _ _ /   ⋋\A   |  <       ⋋ ⋋          ⋋ | / _         ⋋ > |\A    |  <      /            /       ⋋     ⋋    ⋋ /\A     ⋋      / /             |         |     ⋋    ⋋\A      /   / /   /         / |         | ⋋     |    ⋋\A     /     /  '   ⋋ - / - | - / ⋋ / - - ⋋ - /    ⋋ ⋋\A   /       |     (      ( )    ) (    ( )    )   |   ⋋\A   - |     |     / -       -       -     - /     | ⋋ |\A     ⋋ / ⋋   ⋋ /   ⋋ _ ( _ / ⋋ _ ) _ ' / ⋋   |\A   _ _     ⋋ /    ' ⋋ !    _ '   ⋋ /    /    '\A (     )            /     )         ⋋ ⋋\A |     |           /     /             ⋋   ⋋\A ⋋     ⋋   _ - - _   / /               ⋋ ⋋ - - _\A   ⋋   _ /         ⋋   ⋋ _ _ _ _ _ _ / |       |\A         ⋋ _     _ / /     /   |     ⋋   ⋋    - - -\A              - -   /    / '  |  |  '\A                   / ' ' /       | ' |\A                 | - - - |     | - - - |\A                 /       /   |         ⋋\A               |       |       ' ' ⋋ _ _ |\A                  ---";}
+ 92%{  content:"     ____                / |  __         _\A   /   ⋋   ⋋ ⋋ _ _ _ _ /   | / / _ _ _ /   ⋋\A   |  <       ⋋ ⋋          ⋋ | / _         ⋋ > |\A    |  <      /            /       ⋋     ⋋    ⋋ /\A     ⋋      / /             |         |     ⋋    ⋋\A      /   / /   /         / |         | ⋋     |    ⋋\A     /     /  '   ⋋ - / - | - / ⋋ / - - ⋋ - /    ⋋ ⋋\A   /       |     (      ( )    ) (    ( )    )   |   ⋋\A   - |     |     / -       -       -     - /     | ⋋ |\A     ⋋ / ⋋   ⋋ /   ⋋ _ ( _ / ⋋ _ ) _ ' / ⋋   |\A   _ _     ⋋ /    ' ⋋ !    _ '   ⋋ /    /    '\A (     )            /     )         ⋋ ⋋\A |     |           /     /             ⋋   ⋋\A ⋋     ⋋   _ - - _   / /               ⋋ ⋋ - - _\A   ⋋   _ /         ⋋   ⋋ _ _ _ _ _ _ / |       |\A         ⋋ _     _ / /     /   |     ⋋   ⋋    - - -\A              - -   /    / '  |  |  '\A                   / ' ' /       | ' |\A                 | - - - |     | - - - |\A                 /       /   |         ⋋\A               |       |       ' ' ⋋ _ _ |\A                  ---";}
 
- 90%{  content:"     ____                / |  __         _\A   /   ⋋   ⋋ ⋋ _ _ _ _ /   | / / _ _ _ /   ⋋\A   |  <       ⋋ ⋋          ⋋ | / _         ⋋ > |\A    |  <      /            /       ⋋     ⋋    ⋋ /\A     ⋋      / /             |         |     ⋋    ⋋\A      /   / /   /         / |         | ⋋     |    ⋋\A     /     /  '   ⋋ - / - | - / ⋋ / - - ⋋ - /    ⋋ ⋋\A   /       |     (         ( ) ) (       ( ) )   |   ⋋\A   - |     |     / -       -       -     - /     | ⋋ |\A     ⋋ / ⋋   ⋋ /   ⋋ _ ( _ / ⋋ _ ) _ ' / ⋋   |\A   _ _     ⋋ /    ' ⋋ !    _ '   ⋋ /    /    '\A (     )            /     )         ⋋ ⋋\A |     |           /     /             ⋋   ⋋\A ⋋     ⋋   _ - - _   / /               ⋋ ⋋ - - _\A   ⋋   _ /         ⋋   ⋋ _ _ _ _ _ _ / |       |\A         ⋋ _     _ / /     /   |     ⋋   ⋋    - - -\A              - -   /    / '  |  |  '\A                   / ' ' /       | ' |\A                 | - - - |     | - - - |\A                 /       /   |         ⋋\A               |       |       ' ' ⋋ _ _ |\A                  ---";}
- 95%{  content:"     ____                / |  __         _\A   /   ⋋   ⋋ ⋋ _ _ _ _ /   | / / _ _ _ /   ⋋\A   |  <       ⋋ ⋋          ⋋ | / _         ⋋ > |\A    |  <      /            /       ⋋     ⋋    ⋋ /\A     ⋋      / /             |         |     ⋋    ⋋\A      /   / /   /         / |         | ⋋     |    ⋋\A     /     /  '   ⋋ - / - | - / ⋋ / - - ⋋ - /    ⋋ ⋋\A   /       |     (      ( )    ) (    ( )    )   |   ⋋\A   - |     |     / -       -       -     - /     | ⋋ |\A     ⋋ / ⋋   ⋋ /   ⋋ _ ( _ / ⋋ _ ) _ ' / ⋋   |\A   _ _     ⋋ /    ' ⋋ !    _ '   ⋋ /    /    '\A (     )            /     )         ⋋ ⋋\A |     |           /     /             ⋋   ⋋\A ⋋     ⋋   _ - - _   / /               ⋋ ⋋ - - _\A   ⋋   _ /         ⋋   ⋋ _ _ _ _ _ _ / |       |\A         ⋋ _     _ / /     /   |     ⋋   ⋋    - - -\A              - -   /    / '  |  |  '\A                   / ' ' /       | ' |\A                 | - - - |     | - - - |\A                 /       /   |         ⋋\A               |       |       ' ' ⋋ _ _ |\A                  ---";}
- 
+ 93%{  content:"     ____                / |  __         _\A   /   ⋋   ⋋ ⋋ _ _ _ _ /   | / / _ _ _ /   ⋋\A   |  <       ⋋ ⋋          ⋋ | / _         ⋋ > |\A    |  <      /            /       ⋋     ⋋    ⋋ /\A     ⋋      / /             |         |     ⋋    ⋋\A      /   / /   /         / |         | ⋋     |    ⋋\A     /     /  '   ⋋ - / - | - / ⋋ / - - ⋋ - /    ⋋ ⋋\A   /       |     (         ( ) ) (       ( ) )   |   ⋋\A   - |     |     / -       -       -     - /     | ⋋ |\A     ⋋ / ⋋   ⋋ /   ⋋ _ ( _ / ⋋ _ ) _ ' / ⋋   |\A   _ _     ⋋ /    ' ⋋ !    _ '   ⋋ /    /    '\A (     )            /     )         ⋋ ⋋\A |     |           /     /             ⋋   ⋋\A ⋋     ⋋   _ - - _   / /               ⋋ ⋋ - - _\A   ⋋   _ /         ⋋   ⋋ _ _ _ _ _ _ / |       |\A         ⋋ _     _ / /     /   |     ⋋   ⋋    - - -\A              - -   /    / '  |  |  '\A                   / ' ' /       | ' |\A                 | - - - |     | - - - |\A                 /       /   |         ⋋\A               |       |       ' ' ⋋ _ _ |\A                  ---";}
+ 94%{  content:"     ____                / |  __         _\A   /   ⋋   ⋋ ⋋ _ _ _ _ /   | / / _ _ _ /   ⋋\A   |  <       ⋋ ⋋          ⋋ | / _         ⋋ > |\A    |  <      /            /       ⋋     ⋋    ⋋ /\A     ⋋      / /             |         |     ⋋    ⋋\A      /   / /   /         / |         | ⋋     |    ⋋\A     /     /  '   ⋋ - / - | - / ⋋ / - - ⋋ - /    ⋋ ⋋\A   /       |     (      ( )    ) (    ( )    )   |   ⋋\A   - |     |     / -       -       -     - /     | ⋋ |\A     ⋋ / ⋋   ⋋ /   ⋋ _ ( _ / ⋋ _ ) _ ' / ⋋   |\A   _ _     ⋋ /    ' ⋋ !    _ '   ⋋ /    /    '\A (     )            /     )         ⋋ ⋋\A |     |           /     /             ⋋   ⋋\A ⋋     ⋋   _ - - _   / /               ⋋ ⋋ - - _\A   ⋋   _ /         ⋋   ⋋ _ _ _ _ _ _ / |       |\A         ⋋ _     _ / /     /   |     ⋋   ⋋    - - -\A              - -   /    / '  |  |  '\A                   / ' ' /       | ' |\A                 | - - - |     | - - - |\A                 /       /   |         ⋋\A               |       |       ' ' ⋋ _ _ |\A                  ---";}
+
+ 100%{  content:"     ____                / |  __         _\A   /   ⋋   ⋋ ⋋ _ _ _ _ /   | / / _ _ _ /   ⋋\A   |  <       ⋋ ⋋          ⋋ | / _         ⋋ > |\A    |  <      /            /       ⋋     ⋋    ⋋ /\A     ⋋      / /             |         |     ⋋    ⋋\A      /   / /   /         / |         | ⋋     |    ⋋\A     /     /  '   ⋋ - / - | - / ⋋ / - - ⋋ - /    ⋋ ⋋\A   /       |     (      ( )    ) (    ( )    )   |   ⋋\A   - |     |     / -       -       -     - /     | ⋋ |\A     ⋋ / ⋋   ⋋ /   ⋋ _ ( _ / ⋋ _ ) _ ' / ⋋   |\A   _ _     ⋋ /    ' ⋋ !    _ '   ⋋ /    /    '\A (     )            /     )         ⋋ ⋋\A |     |           /     /             ⋋   ⋋\A ⋋     ⋋   _ - - _   / /               ⋋ ⋋ - - _\A   ⋋   _ /         ⋋   ⋋ _ _ _ _ _ _ / |       |\A         ⋋ _     _ / /     /   |     ⋋   ⋋    - - -\A              - -   /    / '  |  |  '\A                   / ' ' /       | ' |\A                 | - - - |     | - - - |\A                 /       /   |         ⋋\A               |       |       ' ' ⋋ _ _ |\A                  ---";
+ color:green; 
+ font-size:13px;
+ top:95px;
+width:200px;
+left:200px;
+ font-weight:bold;
+ font-style:normal;
+ font-family:arial; }
+
 }
 
-
-
-
-@keyframes wordswords {
-  0% { content: "\A EXERCISE CAUTION!\A "; }
-  1.5% { content: "\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A "; }
-  3% { content: "\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A "; }
-  4.5% { content: "\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A "; }
-  6% { content: "\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A "; }
-  7.5% { content: "\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A "; }
-  9% { content: "\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A "; }
-  10.5% { content: "\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A "; }
-  13% { content: "\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A "; }
-  14.5% { content: "\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A "; }
-  16% { content: "\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A "; }
-  17.5% { content: "\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A "; }
- 20% { content: "\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A EXERCISE CAUTION!\A ";
-  color:transparent;
-    -webkit-text-stroke: 1px red;}
-
-55%{content:"\A ERROR:ERROR\A ERROR:ERROR\A ERROR:ERROR\A ERROR:ERROR\A ERROR:ERROR\A ERROR:ERROR\A ERROR:ERROR\A ERROR:ERROR\A ERROR:ERROR\A ERROR:ERROR\A ERROR:ERROR\A ERROR:ERROR\A ERROR:ERROR\A ";}    
-    
-59%{content:"";}
-  71%{content:"\A YOU HAVE BEEN ANALYZED\A +YOU HAVE BEEN JUDGED+\A YOU HAVE BEEN ORDAINED\A YOU HAVE BEEN ANALYZED\A +YOU HAVE BEEN JUDGED+\A YOU HAVE BEEN ORDAINED\A YOU HAVE BEEN ANALYZED\A +YOU HAVE BEEN JUDGED+\A YOU HAVE BEEN ORDAINED\A YOU HAVE BEEN ANALYZED\A +YOU HAVE BEEN JUDGED+\A YOU HAVE BEEN ORDAINED\A ";
-  font-size:25px;
-  font-family:"Press Start 2P";
-    -webkit-text-stroke: 1px green;}
- 90%{content:"\A DIE A HORRIFYING DEATH\A A MILLION TIMES OVER\A DIE A HORRIFYING DEATH\A A MILLION TIMES OVER\A DIE A HORRIFYING DEATH\A A MILLION TIMES OVER\A DIE A HORRIFYING DEATH\A A MILLION TIMES OVER\A DIE A HORRIFYING DEATH\A A MILLION TIMES OVER\A DIE A HORRIFYING DEATH\A A MILLION TIMES OVER\A DIE A HORRIFYING DEATH\A A MILLION TIMES OVER\A";} 
-}
